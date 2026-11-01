@@ -1,0 +1,16 @@
+BHUTTA HOTEL & RESTAURANT — FREE PREVIEW DEPLOYMENT
+
+1) Make a GitHub account (with help from a parent/guardian if needed).
+2) On GitHub, create a NEW private or public repository named bhutta-hotel-restaurant.
+3) Upload all files and folders from this ZIP into the repository root. Make sure package.json, server.js, render.yaml, and public/ are at the top level.
+4) Open https://render.com/ and sign in using GitHub.
+5) Choose New + > Blueprint, select the repository, then apply the blueprint.
+6) Render will ask for ADMIN_PASSWORD. Set a strong unique password; do not share it in chat.
+7) Wait for deployment to finish. Render will show the website's onrender.com URL.
+8) Test the homepage, menu, order form, booking form, and /admin page.
+
+IMPORTANT LIMITATIONS:
+- This is a free preview setup. Render free web services can sleep when idle.
+- This project currently stores orders, bookings, menu and rooms in local SQLite files. On Render free service those files are NOT persistent and can be lost after restart/redeploy. Do not rely on this for real customer orders until a persistent database is connected.
+- The example menu and room prices/photos must be checked and updated by the hotel before accepting real customers.
+- Do not publish any real admin password in the repository. Enter it only in Render's environment-variable prompt.
